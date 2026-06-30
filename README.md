@@ -10,7 +10,7 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-Put source PDFs in `data/raw/`, then build the chunks and FAISS index:
+Build the chunks and FAISS index:
 
 ```bash
 python -m ncap_rag.ingest
